@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Scroll from 'react-scroll-to-bottom';
 import './style.css';
 
 export default class index extends React.Component {

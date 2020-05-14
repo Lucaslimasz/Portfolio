@@ -17,7 +17,7 @@ export default class index extends React.Component{
                             <li><Link to="/">sobre</Link></li>
                             <li><Link to="/experience">experiência</Link></li>
                             <li><Link to="/formation">formação</Link></li>
-                            <li><Link to="">habilidades</Link></li>
+                            <li><Link to="/skills">habilidades</Link></li>
                             <li><Link to="">interesses</Link></li>
                         </ul>
                     </div>
