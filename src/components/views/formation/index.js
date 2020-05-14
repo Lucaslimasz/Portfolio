@@ -5,6 +5,7 @@ import Escola from '../../../img/icons/escola.png';
 import Curso from '../../../img/icons/curso.png';
 
 import './style.css';
+import '../../../animate.css'
 
 export default class index extends React.Component {
     render() {
@@ -12,7 +13,7 @@ export default class index extends React.Component {
 
             <div className="container-formation">
                 <div className="container">
-                    <div className="information">
+                    <div className="information animated slideInLeft">
                         <img src={Escola} alt="Faculdade" />
                         <div className="text">
                             <h1><a>Ensino médio -</a> completo</h1>
@@ -20,7 +21,7 @@ export default class index extends React.Component {
                         </div>
                     </div>
 
-                    <div className="information">
+                    <div className="information animated slideInRight">
                         <img src={Curso} alt="Faculdade" className="reverse" />
                         <div className="text">
                             <h1><a>TÉC. em informática -</a> completo</h1>
@@ -29,7 +30,7 @@ export default class index extends React.Component {
                     </div>
                     
 
-                    <div className="information">
+                    <div className="information animated slideInLeft">
                         <img src={Faculdade} alt="Faculdade" />
                         <div className="text">
                             <h1><a>Sistemas p/ Internet -</a> cursando</h1>

@@ -5,6 +5,7 @@ import Insta from '../../../img/icons/instagram.png';
 import Linkedin from '../../../img/icons/linkedin.png';
 
 import './style.css';
+import '../../../animate.css'
 
 export default class index extends React.Component{
     render(){
@@ -12,12 +13,12 @@ export default class index extends React.Component{
             <>
                 <div className="container-about">
                     <div className="container-information">
-                        <div className="name-information">
+                        <div className="name-information animated slideInLeft">
                             <h1>Lucas <a>Lima</a></h1>
                             <p>João Pessoa - PARAÍBA, BRASIL • (83) 98905.0001 • <a>id.lucas@outlook.com.br</a></p>
                         </div>
 
-                        <div className="general-information">
+                        <div className="general-information animated slideInRight">
                             <p>
                                 Apaixonado pela tecnologia, busco conhecimento e experiência no mundo do desenvolvimento
                                 web e mobile, migrande de designer gráfico levo uma grande bagagem para o UX/UI.
@@ -25,7 +26,7 @@ export default class index extends React.Component{
                             </p>
                         </div>
 
-                        <div className="contact">
+                        <div className="contact animated zoomIn">
                             <a href="https://www.linkedin.com/in/lucas-lima-85302016a/" target="_blank"><img src={Linkedin} /></a>
                             <a href="https://github.com/lucaslimasz" target="_blank"><img src={Git} /></a>
                             <a href="https://www.instagram.com/lukinhaslima.sz/" target="_blank"><img src={Insta} /></a>

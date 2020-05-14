@@ -3,6 +3,18 @@
     height: 100vh;
     background-color: #313131;    
     color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.container-skills::-webkit-scrollbar{
+    width: 15px;
+    padding: 100px 0;
+}
+
+.container-skills::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: rgba(214, 214, 214, 0.904)
 }
 
 .container-skills .skills .skill-ul{
@@ -34,3 +46,13 @@
 .container-skills .skills .skill-ul li p{
     font-size: 30px;
 }
+
+
+/* 
+    Knowledge
+*/
+
+.container-skills .conhecimento{
+    margin-top: 15vh;
+}
+
