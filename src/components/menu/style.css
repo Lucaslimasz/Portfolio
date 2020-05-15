@@ -47,3 +47,9 @@
     
 }
 
+.notresponsive{
+    color: white;
+    font-size: 13px;
+    position: fixed;
+    margin-top: 51%;
+}

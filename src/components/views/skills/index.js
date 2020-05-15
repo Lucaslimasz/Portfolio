@@ -40,7 +40,7 @@ export default class index extends React.Component{
                             <p>ReactJS</p>
                         </li>
                     </ul>
-                    <ul className="skill-ul animated slideInRight">
+                    <ul className="skill-ul animated slideInLeft">
                         <li>
                             <img src={Photoshop} />
                             <p>Photoshop</p>
@@ -58,10 +58,10 @@ export default class index extends React.Component{
                 </div>
                 <div className="skills conhecimento">
                     <h1 className="animated zoomIn">Conhecimento</h1>
-                    <ul className="skill-ul animated slideInLeft">
+                    <ul className="skill-ul ">
                         <li>
                             <img src={Php} />
-                            <p>Php</p>
+                            <p>Php</p> 
                         </li>
                         <li>
                             <img src={Node}/>

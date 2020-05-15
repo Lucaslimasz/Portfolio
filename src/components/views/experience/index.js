@@ -41,7 +41,7 @@ export default class index extends React.Component {
                         <h2>MARÇO<a>/</a>2020 ATÉ <a>O MOMENTO</a></h2>
                         <p>
                             <a>9ideia:</a> empenhando a função de desenvolvedor Web, utilizando
-                            as tecnologias: Html, Css e Javascript, e para projetos
+                            as tecnologias: Html, Css e Javascript e para projetos
                             futuros ReactJs, NodeJs e React Native.
                         </p>
                     </div>
